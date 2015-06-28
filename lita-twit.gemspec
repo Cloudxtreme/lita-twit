@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-twit"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Jivko Georgiev"]
   spec.email         = ["jivkobg@gmail.com"]
   spec.description   = "Twitter handler"
