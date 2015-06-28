@@ -17,10 +17,10 @@ module Lita
       def initialize(robot)
         super
         @client = Twitter::REST::Client.new do |config|
-          config.consumer_key = Lita.config.handlers.tweeta.consumer_key
-          config.consumer_secret = Lita.config.handlers.tweeta.consumer_secret
-          config.access_token = Lita.config.handlers.tweeta.access_token
-          config.access_token_secret = Lita.config.handlers.tweeta.access_token_secret
+          config.consumer_key = Lita.config.handlers.twit.consumer_key
+          config.consumer_secret = Lita.config.handlers.twit.consumer_secret
+          config.access_token = Lita.config.handlers.twit.access_token
+          config.access_token_secret = Lita.config.handlers.twit.access_token_secret
         end        
       end
       

@@ -5,8 +5,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["jivkobg@gmail.com"]
   spec.description   = "Twitter handler"
   spec.summary       = "Twitter api handler"
-  spec.homepage      = "http://muncho.net"
-  spec.license       = "TODO: Add a license"
+  spec.homepage      = "https://github.com/jivko/lita-twit"
+  spec.license       = "MIT License (MIT)"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
