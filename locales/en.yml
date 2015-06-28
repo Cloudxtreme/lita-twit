@@ -1,0 +1,7 @@
+en:
+  lita:
+    handlers:
+      twit:
+        help:
+          twit_key: "tweet USERNAME"
+          twit_value: "Display the latest tweet by USERNAME."
